@@ -1,0 +1,63 @@
+<svg width="400" height="200" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background subtle circle for logo feel -->
+  <circle cx="100" cy="50" r="45" fill="none" stroke="#2ECC71" stroke-width="3" opacity="0.3"/>
+
+  <!-- Stylized 'V' with slight offset and gradient -->
+  <defs>
+    <linearGradient id="vGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ECC71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27AE60;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#27AE60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ECC71;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 'V' positioned slightly left, bold and tilted for style -->
+  <text 
+    x="85" 
+    y="65" 
+    font-family="Arial Black, sans-serif" 
+    font-size="90" 
+    font-weight="900" 
+    fill="url(#vGradient)" 
+    text-anchor="middle"
+    transform="rotate(-5 85 65)"
+    letter-spacing="-2"
+  >
+    V
+  </text>
+
+  <!-- 'S' positioned to overlap/combine with 'V', bold and tilted oppositely -->
+  <text 
+    x="115" 
+    y="75" 
+    font-family="Arial Black, sans-serif" 
+    font-size="90" 
+    font-weight="900" 
+    fill="url(#sGradient)" 
+    text-anchor="middle"
+    transform="rotate(5 115 75)"
+    letter-spacing="-2"
+  >
+    S
+  </text>
+
+  <!-- Underline with a stylish curve instead of straight line -->
+  <path d="M 70 85 Q 100 80 130 85" stroke="#27AE60" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle glow/shadow effect (optional, using filter) -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Apply glow to texts if needed, but keeping it simple here -->
+
+</svg>

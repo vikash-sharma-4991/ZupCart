@@ -1,0 +1,23 @@
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo showing the text ZupCart with stylized Z and black motion lines emerging while overlapping it">
+  <!-- Background rectangle (optional, transparent) -->
+  <rect width="300" height="80" fill="transparent" />
+
+  <!-- Motion lines (black) positioned to overlap the Z and emerge leftward from it -->
+  <!-- Lines start within/near the Z's position (x=60-75) and extend left, creating overlap on the Z -->
+  <!-- Top line: overlaps top of Z, emerges left -->
+  <rect x="20" y="25" width="55" height="4" rx="2" fill="black" />
+  <!-- Middle line: overlaps center of Z, emerges left -->
+  <rect x="25" y="35" width="50" height="4" rx="2" fill="black" />
+  <!-- Bottom line: overlaps bottom of Z, emerges left -->
+  <rect x="30" y="45" width="45" height="4" rx="2" fill="black" />
+
+  <!-- 'Z' in green, positioned at x=60 (lines overlap it visually) -->
+  <text x="60" y="60" font-family="Arial, sans-serif" font-weight="700" font-size="48" fill="#3DDC97" letter-spacing="0">
+    Z
+  </text>
+
+  <!-- "upCart" in black, positioned right after Z -->
+  <text x="90" y="60" font-family="Arial, sans-serif" font-weight="700" font-size="48" fill="black" letter-spacing="1">
+    upCart
+  </text>
+</svg>
