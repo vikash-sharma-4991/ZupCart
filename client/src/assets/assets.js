@@ -73,6 +73,18 @@ import vanilla_muffins_image from "./vanilla_muffins_image.png";
 import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
+import cabbage_image from "./cabbage_image.png";
+import brinjal_image from "./brinjal_image.png";
+import bittergourd_image from "./bittergourd_image.png";
+import ladyfinger_image from "./ladyfinger_image.png";
+import capsicum_image from "./capsicum_image.png";
+import kiwi_image from "./kiwi_image.png";
+import strawberry_image from "./strawberry_image.png";
+import pineapple_image from "./pineapple_image.png";
+import papaya_image from "./papaya_image.png";
+import guava_image from "./guava_image.png";
+import watermelon_image from "./watermelon_image.png";
+import pomegranate_image from "./pomegranate_image.png";
 
 export const assets = {
   logo,
@@ -291,6 +303,92 @@ export const dummyProducts = [
     updatedAt: "2025-03-25T07:18:13.103Z",
     inStock: true,
   },
+    {
+    _id: "gd50g18c",
+    name: "Cabbage 1 pc",
+    category: "Vegetables",
+    price: 30,
+    offerPrice: 25,
+    image: [cabbage_image],
+    description: [
+      "Fresh and green leaves",
+      "High in fiber",
+      "Ideal for salads and curries",
+      "Locally sourced and organic",
+    ],
+    createdAt: "2025-03-28T10:30:00.000Z",
+    updatedAt: "2025-03-28T10:31:30.000Z",
+    inStock: true,
+  },
+  {
+  _id: "gd53g28f",
+  name: "Brinjal 500g",
+  category: "Vegetables",
+  price: 35,
+  offerPrice: 30,
+  image: [brinjal_image],
+  description: [
+    "Fresh purple brinjal",
+    "Rich in fiber and antioxidants",
+    "Perfect for curries and fries",
+    "Locally sourced farm produce",
+  ],
+  createdAt: "2025-03-31T07:15:00.000Z",
+  updatedAt: "2025-03-31T07:16:45.000Z",
+  inStock: true,
+},
+
+{
+  _id: "gd54g29g",
+  name: "Lady Finger 500g",
+  category: "Vegetables",
+  price: 30,
+  offerPrice: 25,
+  image: [ladyfinger_image],
+  description: [
+    "Tender and fresh okra",
+    "High in dietary fiber",
+    "Ideal for fry and curry dishes",
+    "Farm-picked and chemical-free",
+  ],
+  createdAt: "2025-04-01T08:00:00.000Z",
+  updatedAt: "2025-04-01T08:01:20.000Z",
+  inStock: true,
+},
+{
+  _id: "gd55g30h",
+  name: "Capsicum 500g",
+  category: "Vegetables",
+  price: 50,
+  offerPrice: 45,
+  image: [capsicum_image],
+  description: [
+    "Bright and crunchy capsicum",
+    "Rich in Vitamin A and C",
+    "Perfect for salads, pizza, and curries",
+    "Freshly picked from local farms",
+  ],
+  createdAt: "2025-04-02T09:00:00.000Z",
+  updatedAt: "2025-04-02T09:02:10.000Z",
+  inStock: true,
+},
+{
+  _id: "gd57g32j",
+  name: "Bitter Gourd 500g",
+  category: "Vegetables",
+  price: 45,
+  offerPrice: 38,
+  image: [bittergourd_image],
+  description: [
+    "Healthy and bitter in taste",
+    "Excellent for diabetic patients",
+    "Rich in iron and vitamins",
+    "Organically grown for better health",
+  ],
+  createdAt: "2025-04-04T11:00:00.000Z",
+  updatedAt: "2025-04-04T11:02:00.000Z",
+  inStock: true,
+},
 
   // Fruits
   {
@@ -329,7 +427,7 @@ export const dummyProducts = [
   },
   {
     _id: "ek53j34k",
-    name: "Banana 1 kg",
+    name: "Banana 12 pcs",
     category: "Fruits",
     price: 50,
     offerPrice: 45,
@@ -376,6 +474,131 @@ export const dummyProducts = [
     updatedAt: "2025-03-25T07:18:13.103Z",
     inStock: true,
   },
+  {
+  _id: "fr05g14e",
+  name: "Pomegranate 1 kg",
+  category: "Fruits",
+  price: 180,
+  offerPrice: 160,
+  image: [pomegranate_image],
+  description: [
+    "Bright red fresh pomegranates",
+    "Excellent for skin and health",
+    "Rich in iron and antioxidants",
+    "Freshly picked and juicy",
+  ],
+  createdAt: "2025-04-10T12:00:00.000Z",
+  updatedAt: "2025-04-10T12:04:10.000Z",
+  inStock: true,
+},
+{
+  _id: "fr07g16g",
+  name: "Strawberry 500g",
+  category: "Fruits",
+  price: 150,
+  offerPrice: 130,
+  image: [strawberry_image],
+  description: [
+    "Fresh and juicy strawberries",
+    "Rich in Vitamin C and antioxidants",
+    "Perfect for desserts and shakes",
+    "Handpicked from organic farms",
+  ],
+  createdAt: "2025-04-12T08:00:00.000Z",
+  updatedAt: "2025-04-12T08:05:00.000Z",
+  inStock: true,
+},
+
+{
+  _id: "fr08g17h",
+  name: "Pineapple 1 pc",
+  category: "Fruits",
+  price: 90,
+  offerPrice: 75,
+  image: [pineapple_image],
+  description: [
+    "Tropical and tangy pineapple",
+    "Rich in Vitamin C and manganese",
+    "Great for juice and salad",
+    "Naturally sweet and fresh",
+  ],
+  createdAt: "2025-04-13T09:00:00.000Z",
+  updatedAt: "2025-04-13T09:04:00.000Z",
+  inStock: true,
+},
+
+{
+  _id: "fr09g18i",
+  name: "Watermelon 1 pc",
+  category: "Fruits",
+  price: 120,
+  offerPrice: 100,
+  image: [watermelon_image],
+  description: [
+    "Large and juicy watermelon",
+    "Perfect for summer hydration",
+    "Rich in antioxidants and fiber",
+    "Farm fresh and sweet",
+  ],
+  createdAt: "2025-04-14T10:00:00.000Z",
+  updatedAt: "2025-04-14T10:03:00.000Z",
+  inStock: true,
+},
+
+{
+  _id: "fr10g19j",
+  name: "Papaya 1 kg",
+  category: "Fruits",
+  price: 80,
+  offerPrice: 70,
+  image: [papaya_image],
+  description: [
+    "Sweet and healthy papaya",
+    "Supports digestion and skin glow",
+    "Naturally ripened and chemical-free",
+    "Rich in vitamins and fiber",
+  ],
+  createdAt: "2025-04-15T11:00:00.000Z",
+  updatedAt: "2025-04-15T11:05:00.000Z",
+  inStock: true,
+},
+
+{
+  _id: "fr11g20k",
+  name: "Kiwi 3 pcs",
+  category: "Fruits",
+  price: 140,
+  offerPrice: 120,
+  image: [kiwi_image],
+  description: [
+    "Premium imported kiwis",
+    "Excellent source of Vitamin C",
+    "Perfect for salads and desserts",
+    "Soft, tangy and delicious taste",
+  ],
+  createdAt: "2025-04-16T12:00:00.000Z",
+  updatedAt: "2025-04-16T12:04:00.000Z",
+  inStock: true,
+},
+
+{
+  _id: "fr12g21l",
+  name: "Guava 1 kg",
+  category: "Fruits",
+  price: 90,
+  offerPrice: 75,
+  image: [guava_image],
+  description: [
+    "Crisp and aromatic guavas",
+    "High in fiber and Vitamin C",
+    "Perfect for juice or snacking",
+    "Locally grown farm fresh produce",
+  ],
+  createdAt: "2025-04-17T13:00:00.000Z",
+  updatedAt: "2025-04-17T13:05:00.000Z",
+  inStock: true,
+},
+
 
   // Dairy
   {
