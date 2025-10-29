@@ -47,8 +47,17 @@ ZupCart is an online shopping platform built with React and Node.js. Users can b
 
 
 
+
 <img width="1920" height="1080" alt="Screenshot 2025-10-19 213038" src="https://github.com/user-attachments/assets/e4182ee0-069c-48fb-82e7-0d127fd02299" />
 <img width="1920" height="1080" alt="Screenshot 2025-10-19 212924" src="https://github.com/user-attachments/assets/271824c2-6e02-4e48-bc80-e1a1c61c309d" />
+
+Product Detail Page
+
+<img width="1920" height="1080" alt="Screenshot 2025-10-29 223746" src="https://github.com/user-attachments/assets/91921c05-7538-44fb-a454-baddb40dbd76" />
+
+<img width="1920" height="1080" alt="Screenshot 2025-10-29 224418" src="https://github.com/user-attachments/assets/040770db-dbcc-4acf-8b38-0b365ec27f04" />
+
+
 
 Backend
 
