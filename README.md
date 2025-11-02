@@ -57,6 +57,10 @@ Product Detail Page
 
 <img width="1920" height="1080" alt="Screenshot 2025-10-29 224418" src="https://github.com/user-attachments/assets/040770db-dbcc-4acf-8b38-0b365ec27f04" />
 
+Cart Page
+<img width="1920" height="1080" alt="Screenshot 2025-11-01 210201" src="https://github.com/user-attachments/assets/0d2aa6e7-042f-4c3a-951b-42386a4a4f13" />
+
+
 
 
 Backend
